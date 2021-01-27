@@ -1,0 +1,24 @@
+BabyBear: q = 2^10, n = 2*312, variance = 9/16 = 0.562500
+Size: Private key 40B, Public key 804B, Capsule 917B
+Pass 1000000/1000000 trial pairs (failure rate = 0.000000)
+          \textsc{BabyBear}Public key:  25 us
+Encapsulate: 36 us
+Decapsulate: 47 us
+Decaps_fail: 47 us
+
+MamaBear: q = 2^10, n = 3*312, variance = 13/32 = 0.406250
+Size: Private key 40B, Public key 1194B, Capsule 1307B
+Pass 1000000/1000000 trial pairs (failure rate = 0.000000)
+          \textsc{MamaBear}Public key:  51 us
+Encapsulate: 59 us
+Decapsulate: 74 us
+Decaps_fail: 74 us
+
+PapaBear: q = 2^10, n = 4*312, variance = 5/16 = 0.312500
+Size: Private key 40B, Public key 1584B, Capsule 1697B
+Pass 1000000/1000000 trial pairs (failure rate = 0.000000)
+          \textsc{PapaBear}Public key:  73 us
+Encapsulate: 88 us
+Decapsulate: 107 us
+Decaps_fail: 107 us
+
